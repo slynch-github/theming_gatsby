@@ -1,10 +1,17 @@
 import React from "react"
+import { Layout as ThemeLayout, Header, Main, Container } from "theme-ui"
 
 const Layout = ({ children }) => (
-    <div>
+    <ThemeLayout>
+        <Header>
         <h1>Events Heading</h1>
-        {children}
-    </div>
+        </Header>
+        <Main>
+            <Container>
+                {children}
+            </Container>
+        </Main>
+    </ThemeLayout>
 )
 
 export default Layout
