@@ -4368,6 +4368,19 @@ gatsby-telemetry@^1.1.3:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
+gatsby-theme-events@*:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-events/-/gatsby-theme-events-1.0.0.tgz#081ca236fc4899f64dc25a95b4c53f1519df04b4"
+  integrity sha512-t6PB+b6Hv6jGhue/D2QtfHOaiFipDVS81Qbr6K+uef/IUyeOMhtCij8e8WquvvYXVU4VTj5G8pe90MQuCNPL+A==
+  dependencies:
+    "@emotion/core" "^10.0.14"
+    "@emotion/styled" "^10.0.14"
+    "@mdx-js/react" "^1.0.23"
+    gatsby-source-filesystem "^2.1.2"
+    gatsby-theme-ui "^0.2.0"
+    gatsby-transformer-yaml "^2.2.0"
+    theme-ui "^0.2.10"
+
 gatsby-theme-ui@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-theme-ui/-/gatsby-theme-ui-0.2.0.tgz#057de6b07160e218300f7914f07b036ee7c960bd"
@@ -9636,9 +9649,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-fetch@2.0.4:
   version "2.0.4"
